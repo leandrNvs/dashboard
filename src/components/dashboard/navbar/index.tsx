@@ -11,7 +11,7 @@ const input = `
 
 export default function Navbar() {
   return (
-    <nav className="text-white flex items-center px-8 py-4 bg-gray-800 rounded-md mt-8 mr-4">
+    <nav className="text-white flex items-center px-8 py-4 bg-gray-800 rounded-md mt-4 mr-4">
       <span>Dashboard</span>
       <form role="search" className={form}>
         <BiSearch className="text-xl" />
